@@ -5801,3 +5801,222 @@ Processing by Reflex1Controller#index as HTML
 Completed 200 OK in 84ms (Views: 82.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-25 19:59:36 -0700
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/done/index
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-25 19:59:37 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (253.1ms)
+Completed 200 OK in 260ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-25 20:00:07 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (224.8ms)
+Completed 200 OK in 244ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:00:10 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navigation.html.erb (0.7ms)
+  Rendered reflex1/_object1.html.erb (0.4ms)
+  Rendered reflex1/_object2.html.erb (0.4ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.1ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (24.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 179ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:01:29 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (4.7ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered reflex1/_object1.html.erb (0.4ms)
+  Rendered reflex1/_object2.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.1ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (24.4ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:01:59 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (5.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.4ms)
+  Rendered reflex1/_object2.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.1ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (22.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:02:27 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (10.0ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered reflex1/_object1.html.erb (0.3ms)
+  Rendered reflex1/_object2.html.erb (0.2ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.1ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (19.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:03:04 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.2ms)
+  Rendered reflex1/_object2.html.erb (0.4ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (21.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:05:26 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (3.6ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.6ms)
+  Rendered reflex1/_object2.html.erb (0.4ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (26.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-25 20:05:27 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (14.3ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-25 20:05:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (11.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex1/index" for 127.0.0.1 at 2018-04-25 20:05:28 -0700
+Processing by Reflex1Controller#index as HTML
+  Rendering reflex1/index.html.erb within layouts/application
+  Rendered reflex1/index.html.erb within layouts/application (3.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.3ms)
+  Rendered reflex1/_object2.html.erb (0.3ms)
+  Rendered reflex1/_object1.html.erb (0.1ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered reflex1/_object1.html.erb (0.0ms)
+  Rendered reflex1/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (21.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reflex2/index" for 127.0.0.1 at 2018-04-25 20:05:30 -0700
+Processing by Reflex2Controller#index as HTML
+  Rendering reflex2/index.html.erb within layouts/application
+  Rendered reflex2/index.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered reflex2/_object1.html.erb (0.4ms)
+  Rendered reflex2/_object2.html.erb (0.3ms)
+  Rendered reflex2/_object1.html.erb (0.0ms)
+  Rendered reflex2/_object2.html.erb (0.0ms)
+  Rendered reflex2/_object1.html.erb (0.0ms)
+  Rendered reflex2/_object2.html.erb (0.0ms)
+  Rendered reflex2/_object1.html.erb (0.0ms)
+  Rendered reflex2/_object2.html.erb (0.0ms)
+  Rendered reflex2/_object1.html.erb (0.0ms)
+  Rendered reflex2/_object2.html.erb (0.0ms)
+  Rendered reflex2/_object1.html.erb (0.0ms)
+  Rendered reflex2/_object2.html.erb (0.0ms)
+  Rendered shared/_instructions.html.erb (25.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 99ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-25 20:05:32 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (24.4ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
